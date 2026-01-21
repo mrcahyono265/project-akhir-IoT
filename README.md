@@ -73,7 +73,6 @@ Aplikasi iOS untuk memantau kelembapan tanah dan memberikan rekomendasi penyiram
 •⁠  ⁠*Muhammad Haekal*
 •⁠  ⁠*Syaifan Nur Irawan*
 
-# Smart Irrigation Decision Support System (DSS) - ESP32 & Blynk
 ---
 Dikembangkan oleh **TI A2**
 Mahasiswa Teknik Informatika - Universitas Darussalam Gontor - Angkatan 2023
