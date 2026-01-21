@@ -23,16 +23,12 @@ Aplikasi iOS untuk memantau kelembapan tanah dan memberikan rekomendasi penyiram
 - **Software:**
   - Swift 5 & SwiftUI (iOS Development).
   - Xcode 15+.
+  - Platform IO.
+  - Framework Arduino.
   - Blynk IoT HTTP REST API.
 - **Hardware:**
-  - ESP32 Development Board.
+  - ESP32 DevKit V1.
   - Capacitive Soil Moisture Sensor.
-
-## 📸 Tampilan Aplikasi
-
-|           Home Monitor            |         Pengaturan Batas          |         Indikator Online          |
-| :-------------------------------: | :-------------------------------: | :-------------------------------: |
-| _(Masukkan Screenshot HP Disini)_ | _(Masukkan Screenshot HP Disini)_ | _(Masukkan Screenshot HP Disini)_ |
 
 ## 🚀 Cara Menjalankan Project
 
@@ -49,12 +45,86 @@ Aplikasi iOS untuk memantau kelembapan tanah dan memberikan rekomendasi penyiram
 5.  Jalankan aplikasi (Cmd + R) ke Simulator atau Device iPhone asli.
 
 ## 👥 Tim Pengembang (Kelas IOT A2)
+### 💻 Programming
+•⁠  ⁠*Mohammad Ridho Cahyono*
+•⁠  ⁠*Muhammad Rafi Aditya*
+•⁠  ⁠*Hasbi Abdullah*
+•⁠  ⁠*Rizky Cahyono*
+•⁠  ⁠*Rizky Al-Ghifary*
 
-- Anggota 1
-- Anggota 2
-- Anggota 3
-- ...
+
+### ⚙️ Mekanikal
+•⁠  ⁠*Nero Caesar Suprobo*
+•⁠  ⁠*Jauhan Ahmad*
+•⁠  ⁠*Muhammad Setya Adjie*
+•⁠  ⁠*Raffa Arvel*
+•⁠  ⁠*Firdis Firnadi*
+•⁠  ⁠*Muhammad Irfansyah*
+•⁠  ⁠*Nur Muhammad Ridho As-syauqi*
+
+### ⚡ Elektrika
+•⁠  ⁠*Wafa Bila Syaefurakhman*
+•⁠  ⁠*Muhammad Misbahul Muflihin*
+•⁠  ⁠*Ghulam Musthofa*
+•⁠  ⁠*MHD. Nurdhin Al-Kahfi*
+•⁠  ⁠*Muhammad Faiz Nashih Rozaq*
+•⁠  ⁠*Yusuf Al-bana*
+•⁠  ⁠*Muhammad Akmal Najib Gunawan*
+•⁠  ⁠*Muhammad Haekal*
+•⁠  ⁠*Syaifan Nur Irawan*
+
+# Smart Irrigation Decision Support System (DSS) - ESP32 & Blynk
+## Tugas Akhir IoT
+
+Sistem pendukung keputusan irigasi cerdas berbasis IoT yang memberikan rekomendasi penyiraman secara real-time berdasarkan tingkat kelembaban tanah. Proyek ini merupakan bagian dari pengembangan sistem cerdas untuk mendukung pertanian modern di Indonesia.
+
+## 👥 Struktur Tim Proyek (UNIDA Robotics Team)
+
+### 💻 Programming
+* **Ridho**
+* **Hasbi**
+* **Risky Cahyono**
+* **Rizky (Parcok)**
+* **Rafi Aditya**
+
+### ⚙️ Mekanikal
+* **Nero**
+* **Jauhan**
+* **Adjie**
+* **Rafa**
+* **Firdis**
+* **Irfansyah**
+* **Nur Ridho**
+* **Saif**
+
+### ⚡ Elektrika
+* **Wafa**
+* **Ghulam**
+* **Kahfi**
+* **Faiz**
+* **Yusuf**
+* **Akmal**
+* **Misbahul**
+* **Haekal**
+* **Saifan**
 
 ---
 
-_Dibuat dengan ❤️ untuk Tugas IoT._
+## 📋 Fitur Utama
+* **Monitoring Real-time**: Memantau kelembaban tanah melalui aplikasi Blynk.
+* **Multi-Level Recommendation**: Memberikan 4 tingkatan status (IDLE, NORMAL, REKOMENDASI, DARURAT).
+* **Dynamic Thresholding**: Ambang batas (threshold) dapat diatur langsung melalui aplikasi.
+* **Security Context**: Pemisahan kredensial melalui file header `screet.h`.
+
+## 🛠️ Hardware & Software
+* **Hardware**: ESP32 DevKit V1, Capacitive Soil Moisture Sensor.
+* **Software**: VS Code + PlatformIO, Framework Arduino, Blynk IoT Platform.
+
+## 🚀 Cara Menjalankan
+1. Clone repository ini.
+2. Buat file `include/screet.h` dan masukkan kredensial Blynk serta WiFi Anda.
+3. Jalankan **Build** dan **Upload** melalui PlatformIO di VS Code.
+
+---
+Dikembangkan oleh **TI A2**
+Mahasiswa Teknik Informatika - Universitas Darussalam Gontor - Angkatan 2023
